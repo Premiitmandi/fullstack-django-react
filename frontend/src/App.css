@@ -1,0 +1,47 @@
+/* Apply styles to the entire app */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Style the input box */
+input {
+    width: 300px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Add background color to the table headers */
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Hover effect for table rows */
+tr:hover {
+    background-color: #f1f1f1;
+}
+@media (max-width: 768px) {
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+    input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
